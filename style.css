@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +9,7 @@
 .container {
     max-width: 1216px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 /* common buttom  */
@@ -281,6 +283,10 @@
 .statistic-section-bottom-com{
     text-align: center;
     width: 30%;
+    padding: 20px;
+}
+.statistic-section-bottom-com-border{
+    border-right: 2px solid rgba(203, 213, 225, 1);
 }
 .statistic-section-bottom-com p{
     font-weight: 700;
