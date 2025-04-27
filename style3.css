@@ -1,26 +1,6 @@
-@media only screen and (max-width: 1024px) {
-    .nav-container {
-        position: relative;
-        z-index: 999;
-        
-    }
-    
-    .nav-items-container {
-        position: absolute;
-        top: 0px;
-        transition: all 0.5s;
-        background-color: black;
-        color: white;
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 10px;
-        z-index: 99;
-        display: none;
-    }
-
+@media (min-width: 768px) and (max-width: 992px) {
+  
+    /* hero section design  */
     .here-company-overview{
         width: 90%;
         margin: 0 auto;
@@ -79,7 +59,7 @@
 
 .feature-section-bottom-com{
     text-align: center;
-    width: 80%;
+    width: 40%;
     margin: 0 auto;
 }
 .feature-section-bottom-com img{
@@ -117,23 +97,18 @@
 }
 
 .statistic-section-bottom{
-
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 .statistic-section-bottom-com{
     text-align: center;
-    width: 80%;
-   
+    width: 25%;
+    padding: 20px;
+}
+.statistic-section-bottom-com-border{
+    border-right: 2px solid rgba(203, 213, 225, 1);
 }
 
-.statistic-section-bottom-com p{
-
-    font-size: 38px;
-    line-height: 58px;
-    padding: 0px 0px;
-}
 
 /* fature section 2  */
 
@@ -205,7 +180,7 @@
     margin-top: 30px;
 }
 .testimonials-bottom-com{
-    width: 80%;
+    width: 45%;
 }
 
 

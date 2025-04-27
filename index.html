@@ -31,7 +31,10 @@
                     <img class="nav-left-logo-img" src="img/Logo.png" alt="">
                 </a>
             </div>
-            <div class="nav-mid">
+            <div id="nav-bar" class="nav-mid">
+                <div id="menubar" class="nav-mid-xmark">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
                 <ul class="nav-items-container">
                     <li>
                         <a href="">Features</a>
@@ -51,11 +54,17 @@
                 </ul>
             </div>
             <div class="nav-right">
-                <div class="nav-right-sign">
-                    <button class="common-btn2">Sign Up</button>
+                <div class="nav-right1">
+                    <div class="nav-right-sign">
+                        <button class="common-btn2">Sign Up</button>
+                    </div>
+                    <div class="right-login">
+                        <button class="common-btn2">Log In</button>
+                    </div>
+
                 </div>
-                <div class="right-login">
-                    <button class="common-btn2">Log In</button>
+                <div onclick="navMenuShow()"  id="nav-bar" class="nav-right2">
+                    <img src="img/Monotone add.png" alt="">
                 </div>
             </div>
 
@@ -508,65 +517,75 @@
 
                 <div class="faq-section-bottom">
                     <div class=" faq-section-bottom-com-div">
-                        <div class="faq-section-bottom-com">
+                        <div onclick="showData(this)" class="faq-section-bottom-com">
                             <div class="faq-section-bottom-com-inner-div">
                                 <i class="fa-regular fa-circle-question"></i>
-                                <h4>Enim sed faucibus turpis in eu mi bibendum neque egestas?</h4>
+                                <h4>Amet consectetur adipiscing elit pellentesque habitant morbi tristique?</h4>
                             </div>
-                            <i class="fa-solid fa-chevron-down"></i>
-                            <!-- <i class="fa-solid fa-angle-up"></i> -->
+                            <i id="faq-arrow-show" class="fa-solid fa-chevron-down"></i>
+                            
                         </div>
 
-
+                        <p id="faq-text-show" class="faqtext">Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu
+                            scelerisque felis imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna
+                            nunc id cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
                     </div>
                     
                     <div class=" faq-section-bottom-com-div">
-                        <div class="faq-section-bottom-com">
+                        <div onclick="showData(this)" class="faq-section-bottom-com">
                             <div class="faq-section-bottom-com-inner-div">
                                 <i class="fa-regular fa-circle-question"></i>
-                                <h4>Enim sed faucibus turpis in eu mi bibendum neque egestas?</h4>
+                                <h4>Amet consectetur adipiscing elit pellentesque habitant morbi tristique?</h4>
                             </div>
-                            <!-- <i class="fa-solid fa-chevron-down"></i> -->
-                            <i class="fa-solid fa-angle-up"></i>
+                            <i id="faq-arrow-show" class="fa-solid fa-chevron-down"></i>
+                            
                         </div>
 
-                        <p>Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
+                        <p id="faq-text-show" class="faqtext">Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu
+                            scelerisque felis imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna
+                            nunc id cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
                     </div>
                     <div class=" faq-section-bottom-com-div">
-                        <div class="faq-section-bottom-com">
+                        <div onclick="showData(this)" class="faq-section-bottom-com">
                             <div class="faq-section-bottom-com-inner-div">
                                 <i class="fa-regular fa-circle-question"></i>
-                                <h4>Enim sed faucibus turpis in eu mi bibendum neque egestas?</h4>
+                                <h4>Elit pellentesque habitant morbi tristique senectus?</h4>
                             </div>
-                            <i class="fa-solid fa-chevron-down"></i>
-                            <!-- <i class="fa-solid fa-angle-up"></i> -->
+                            <i id="faq-arrow-show"  class="fa-solid fa-chevron-down"></i>
+                            
                         </div>
 
-                       
+                        <p id="faq-text-show" class="faqtext">Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu
+                            scelerisque felis imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna
+                            nunc id cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
                     </div>
                     <div class=" faq-section-bottom-com-div">
-                        <div class="faq-section-bottom-com">
+                        <div onclick="showData(this)" class="faq-section-bottom-com">
                             <div class="faq-section-bottom-com-inner-div">
                                 <i class="fa-regular fa-circle-question"></i>
-                                <h4>Enim sed faucibus turpis in eu mi bibendum neque egestas?</h4>
+                                <h4>Amet consectetur adipiscing elit pellentesque habitant morbi tristique?</h4>
                             </div>
-                            <i class="fa-solid fa-chevron-down"></i>
-                            <!-- <i class="fa-solid fa-angle-up"></i> -->
+                            <i id="faq-arrow-show" class="fa-solid fa-chevron-down"></i>
+                            
                         </div>
 
-                      
+                        <p id="faq-text-show" class="faqtext">Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu
+                            scelerisque felis imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna
+                            nunc id cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
                     </div>
                     <div class=" faq-section-bottom-com-div">
-                        <div class="faq-section-bottom-com">
+                        <div onclick="showData(this)" class="faq-section-bottom-com">
                             <div class="faq-section-bottom-com-inner-div">
-                                <i class="fa-regular fa-circle-question"></i>
-                                <h4>Enim sed faucibus turpis in eu mi bibendum neque egestas?</h4>
+                                <i class="fa-regular fa-circle-question "></i>
+                                <h4>Amet consectetur adipiscing elit pellentesque habitant morbi tristique?</h4>
                             </div>
-                            <i class="fa-solid fa-chevron-down"></i>
-                            <!-- <i class="fa-solid fa-angle-up"></i> -->
+                            <i id="faq-arrow-show" class="fa-solid fa-chevron-down"></i>
+                            
                         </div>
 
-                        
+                        <p id="faq-text-show" class="faqtext">Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu
+                            scelerisque felis imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna
+                            nunc id cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
                     </div>
                     
                    
@@ -676,6 +695,10 @@
             </div>
         </footer>
 
+
+        <!-- js link -->
+         <script src="nav.js"></script>
+         <script src="faq.js"></script>
 </body>
 
 </html>

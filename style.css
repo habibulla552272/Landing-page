@@ -46,14 +46,14 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    overflow: hidden;
+    
     
 }
 
 .nav-items-container {
     display: flex;
     gap: 25px;
-    justify-content: space-between;
+   
 
 }
 
@@ -75,12 +75,17 @@
     color: rgb(18, 201, 15);
 
 }
-
-.nav-right {
+.nav-mid-xmark{
+    display: none;
+}
+.nav-right1 {
     display: flex;
     gap: 20px;
 }
-
+.nav-right2 {
+    display: none;
+    gap: 20px;
+}
 /* .nav-right button {
     width: 99px;
     border-radius: 20px;
@@ -692,4 +697,30 @@
 .footer-bottom-btn:hover{
     background-color: rgba(134, 149, 227, 1);
     color: white;
+}
+
+
+
+/* faq arrow show and hidden design  */
+.faqtext{
+    display: none;
+}
+.faqtextshow{
+    display: block;
+}
+.arrowhidden{
+    display: none;
+}
+
+.rotate{
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+    
+}
+.rotate-down{
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+
 }
